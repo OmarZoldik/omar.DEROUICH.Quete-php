@@ -1,0 +1,138 @@
+
+*{
+font-weight: bold;
+
+}
+
+
+
+
+
+
+#NORD :nth-child(1) {
+  color: burlywood;
+  transform: translate(580px, -750px);
+}
+
+#NORD :nth-child(2) {
+  color: burlywood;
+  transform: translate(575px, -667px);
+}
+
+#NORD :nth-child(3) {
+  color: burlywood;
+  transform:translate(652px, -740px);
+}
+#NORD :nth-child(4) {
+  color: burlywood;
+  transform: translate(552px, -760px);
+}
+
+
+
+
+
+
+#SUD :nth-child(1) {
+  color: brown;
+  transform: translate(445px, -266px);
+}
+
+#SUD :nth-child(2) {
+  color: brown;
+  transform: translate(547px, -261px);
+}
+
+#SUD :nth-child(3) {
+  color: brown;
+  transform: translate(597px, -261px);
+}
+#SUD :nth-child(4) {
+  color: brown;
+  transform: translate(830px, -360px);
+}
+
+
+
+
+#EST{
+  color: royalblue;
+}
+
+#EST :nth-child(1) {
+  transform: translate(770px, -630px);
+}
+
+#EST :nth-child(2) {
+  transform: translate(715px, -823px);
+}
+
+#EST :nth-child(3) {
+  transform: translate(830px, -840px);
+}
+
+#EST :nth-child(4) {
+  transform: translate(800px, -800px);
+}
+
+
+
+
+
+
+
+#OUEST{
+  color: teal;
+  position: absolute;
+}
+
+#OUEST :nth-child(1) {
+  transform: translate(273px, -836px);
+}
+
+#OUEST :nth-child(2) {
+  transform: translate(438px, -907px);
+}
+
+#OUEST :nth-child(3) {
+  transform: translate(380px, -870px);
+}
+
+#OUEST :nth-child(4) {
+  transform: translate(437px, -800px);
+  
+}
+
+
+
+
+#nord1{
+  position: absolute;
+  transform: translate(580px, -750px);
+}
+
+#sud1{
+  position: absolute;
+  transform:translate(602px, 60px);
+}
+
+#est1{
+  position:absolute;
+  transform:translate(115px, -445px);
+}
+
+#ouest1{
+  position: absolute;
+  transform: translate(1000px, -425px);
+}
+
+
+
+footer {
+  background-color: grey;
+  position: absolute;
+  bottom: -600px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
